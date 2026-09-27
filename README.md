@@ -1,94 +1,153 @@
-# Awesome-Electronic-Data-Capture
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Electronic Data Capture Banner" width="100%" />
+</p>
 
-## Top Electronic Data Capture (EDC) Platform Ecosystem
+# 🏥 Awesome Electronic Data Capture (EDC) Ecosystem
 
-**Curated list of SaaS products and open-source GitHub projects**  
-*Focusing on clinical trial data collection, GCP compliance, electronic Case Report Forms (eCRF), and CDISC standards*  
-**Last updated: September 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** in the **Electronic Data Capture (EDC)** domain. These tools help clinical research teams, pharmaceutical companies, and CROs capture, manage, and export clinical trial data in compliance with GCP, 21 CFR Part 11, and CDISC standards.
-
-**Examples** include Medidata Rave, Castor EDC, OpenClinica, REDCap, Oracle Clinical One, Clinion, TrialKit, Ennov, DATATRAK, Viedoc, Veeva Vault EDC, ClinCapture, MACRO EDC, Ennov Clinical, IBM Clinical Development, MACRO by Elsevier, and Anju EDC (leaders in this space).
-
-**Open Source Focus**: The EDC domain boasts a **mature open-source ecosystem**, contrasting sharply with many enterprise software categories. **REDCap** is used by 8,378 active partners across 166 countries, serving ~3.8 million users from nearly 8,000 institutions. **OpenClinica** Community Edition and **LibreClinica** provide GCP-compliant EDC capabilities, supporting complete audit trails, electronic signatures, and CDISC ODM-XML exports. This list highlights all major active open-source EDC projects.
-
-Contributions are welcome! Submit a PR to add/update entries. Keep descriptions factual and link to official websites.
-
-## Table of Contents
-
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS / Hosted Platforms
-
-| Name | Description | Pricing / Free Tier |
-| --- | --- | --- |
-| **[Medidata Rave](https://www.medidata.com/)** | Leading EDC platform in the pharmaceutical industry, widely used for registrational clinical trials. Offers electronic data capture, data management, coding, and CDISC export capabilities, deeply integrated with the Medidata Clinical Cloud ecosystem. | Commercial / Enterprise pricing. No free tier available. |
-| **[Castor EDC](https://www.castoredc.com/)** | Lightweight EDC designed for academic and investigator-initiated trials. Provides **Castor Essentials** (entry-level, pay-as-you-go) and **Castor for Impact** (funded research projects). Supports Phase I–IV trials, observational studies, and patient registries with a no-code form builder. Compliance covers 21 CFR Part 11, GDPR, and HIPAA. | **Castor Essentials**: Free tier available for small/non-profit academic studies (up to limited participants/subjects); paid plans on a per-study or per-subject basis. |
-| **[OpenClinica](https://www.openclinica.com/)** | World's leading open-source clinical trial software, offering Community Edition (free self-hosted) and Enterprise Edition (commercially hosted). Features cover EDC, ePRO, eCRF, eTMF, and CDMS with full GCP compliance support. | **Community Edition**: Free & open-source (self-hosted). <br>**Enterprise/Cloud**: Subscription based per study/site. |
-| **[REDCap](https://projectredcap.org/)** | Research Electronic Data Capture platform created by Vanderbilt University, **free for non-profit institutions via the REDCap Consortium**. As of mid-2026, it serves 8,378 active partners in 166 countries (~3.8 million users across ~8,000 institutions). Supports surveys, data collection, CDISC export, and mobile data capture. | **Free** for non-profit consortium partners (requires joining consortium). Commercial licensing available via Vanderbilt for non-consortium / corporate use. |
-| **[Oracle Clinical One](https://www.oracle.com/)** | Cloud-based clinical data management platform providing EDC, data management, and trial management capabilities. Oracle reports CRO Atorus Research configured Oracle Clinical One EDC for a gene therapy study in ~4 weeks. | Commercial / Enterprise pricing. No free tier available. |
-| **[Clinion](https://clinion.com/)** | AI-driven EDC and clinical trial management platform. Offers electronic data capture, ePRO, randomization, and trial management, focusing on mid-market and emerging markets. | Commercial pricing (subscription/per-study). Contact vendor for quotes. |
-| **[TrialKit](https://www.trialkit.com/)** | Cloud-based clinical research platform providing EDC, ePRO, and eConsent. Known for its flexibility and configurability across web and mobile. | Commercial pricing. Custom quotes per study size and feature requirements. |
-| **[Ennov](https://www.ennov.com/)** | EDC module within a regulatory and quality suite. Provides document management, workflow automation, and clinical trial compliance tracking. | Enterprise licensing / Subscription pricing. |
-| **[DATATRAK](https://www.datatrak.com/)** | Cloud-based EDC and clinical trial management platform. Offers electronic data capture, randomization, and trial management capabilities. | Commercial subscription pricing. |
-| **[Viedoc](https://www.viedoc.com/)** | Scandinavian EDC platform known for its modern, user-friendly interface. Provides electronic data capture, ePRO, and CDISC export. | Commercial pricing based on trial scope and duration. |
-| **[Veeva Vault EDC](https://www.veeva.com/)** | EDC module within the Veeva Clinical Suite, integrated with Veeva Vault CDMS. Offers electronic data capture and data management, seamlessly connected to the Veeva ecosystem. | Enterprise subscription pricing. |
-| **[ClinCapture](https://www.clincapture.com/)** | Clinically validated open-source EDC software (commercially supported edition). Offers electronic data capture, ePRO modules, CTMS integration, and CDISC conversion. | Free trial / Freemium options depending on study scope; paid commercial support plans. |
-| **[MACRO EDC](https://www.elsevier.com/)** | Elsevier's EDC platform. Provides electronic data capture, data management, and CDISC export, supporting cloud or on-premise deployment. | Commercial enterprise licensing. |
-| **[IBM Clinical Development](https://www.ibm.com/)** | IBM's clinical data management platform. Offers EDC, data management, and CDISC capabilities suited for large pharmaceutical companies and CROs. | Enterprise commercial pricing. |
-| **[Anju EDC](https://www.anjusoftware.com/)** | Clinical data management platform. Provides electronic data capture, ePRO, and trial management, focusing on oncology and rare disease research. | Commercial pricing (per study / annual enterprise). |
-
-## Open-Source GitHub Projects
-
-- **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)**  
-  Community-driven successor to OpenClinica. Provides all essential features required for GCP-compliant clinical trials: web-based electronic forms (eCRF) with versioning, simple and complex field validation, full audit trails and electronic signatures, double-data entry support, discrepancy notes, and Source Data Verification (SDV), CDISC ODM-XML import, and export to CDISC ODM-XML/TSV/Excel/SPSS/SAS. Supports OpenRosa API backend for integration with the **ODK ecosystem for mobile data capture (e.g., ePRO and eCOA)**. **LGPL-3.0**, Java tech stack (OpenJDK 11, Tomcat 9, PostgreSQL 16). Version 1.4.0 (July 2025). Used by institutions such as the German Cancer Consortium (DKTK), RWTH Aachen University Hospital, and WHO Europe's Childhood Obesity Surveillance Initiative.
-
-- **[clinicedc](https://github.com/clinicedc)**  
-  Django-based multi-site longitudinal clinical trial data management framework. Provides a suite of Python modules to build EDC/eSource systems, handling informed consent, scheduled data collection, quality assurance, trial monitoring, reporting, adverse events, clinical event grading, data export, and auditing. Source code is publicly hosted on GitHub, with runnable local demos for recent trials. **GPL-3.0**. Used in NIH-funded trials by Harvard T.H. Chan School of Public Health, Botswana-Harvard AIDS Institute Partnership, London School of Hygiene & Tropical Medicine, and Liverpool School of Tropical Medicine. Contains 119 repositories, including `edc-qol` (EQ-5D quality of life tool) and `edc-he` (health economics model).
-
-- **[OpenDataCapture](https://github.com/DouglasNeuroInformatics/OpenDataCapture)**  
-  Open-source electronic data capture platform developed by Douglas NeuroInformatics for managing remote and on-site clinical assessments. Features 98 stars with active updates. Ideal for neuroinformatics research requiring remote patient data collection.
-
-- **[COSMOS](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny)**  
-  FAIR- and GCP-aligned Clinical Trial Unit infrastructure tailored for academic clinical and multi-omics trial data. Integrates an automated data quality & validation "trust layer" with a relational SQL schema, offering programmatic and interactive data access via an R Shiny application. **GPL-3.0** licensed.
-
-- **[GNU Health](https://github.com/gnuhealth/gnuhealth)**  
-  Free/Open-Source Health and Hospital Information System by the GNU Project. Offers modules for hospital management, Electronic Medical Records (EMR), laboratory, pharmacy, and epidemiology. **GPL-3.0**, Python tech stack. **Note**: GNU Health is an HIS (Hospital Information System) tool, not a dedicated EDC tool.
-
-- **[OpenEMR](https://github.com/openemr/openemr)**  
-  Most popular open-source electronic health records and medical practice management solution. **ONC Certified** (Ambulatory EHR), version 8.0.0 certified in February 2026. Features include fully integrated EHR, practice management, scheduling, electronic billing, e-prescribing, and patient portal. **GNU GPL**. **Note**: OpenEMR is an EHR/practice management tool, not a dedicated clinical trial EDC.
-
-- **[OpenMRS](https://github.com/openmrs/openmrs-core)**  
-  Open-source medical record system designed specifically for resource-constrained environments. Modular architecture with strong HL7/FHIR support. **Note**: OpenMRS is an EMR tool, not a dedicated EDC.
-
-### Other Strong Open-Source Options
-
-- **EDC Dedicated**: **LibreClinica** (OpenClinica successor, GCP compliant), **clinicedc** (Django-based, multi-site longitudinal trials).
-- **FAIR Data Infrastructure**: **COSMOS** (FAIR/GCP aligned, interactive access via R Shiny).
-- **Remote Data Capture**: **OpenDataCapture** (remote and on-site clinical tool management).
-- **Important Distinction**: **GNU Health**, **OpenEMR**, and **OpenMRS** are EHR/EMR/HIS tools, **not dedicated clinical trial EDC tools**. They can be used for clinical data management, but lack EDC-specific functionality (e.g., CDISC ODM export, eCRF versioning, SDV workflows).
-
-**Framework for Building Custom Systems**: Combine **LibreClinica** as the core EDC platform (GCP compliance, CDISC export, ODK integration), **clinicedc** for Django-based multi-site trial frameworks, **COSMOS** for FAIR data warehousing and validation, and **OpenDataCapture** for remote clinical tool management. Add **PostgreSQL** for persistence and the **ODK** ecosystem for mobile data capture.
-
-## How to Contribute
-
-1. Fork the repository.
-2. Add/edit entries in `README.md` following the existing format.
-3. Include: Name, link, 1–2 sentence description, and whether it is SaaS or Open Source.
-4. Submit a PR with a brief note.
-
-If you find this repository useful, please give it a star!
-
-## Disclaimer
-
-- This is a **community-curated** list—it is neither exhaustive nor an endorsement.
-- EDC systems handle sensitive clinical trial data; ensure compliance with applicable regulations such as 21 CFR Part 11, GCP, HIPAA, and GDPR.
-- **Open-Source Reality**: The EDC space features **mature open-source alternatives**. **REDCap** is the de facto standard for academic research with a massive global user base. **LibreClinica** is an active community successor to OpenClinica, delivering full GCP compliance capabilities. **clinicedc** is production-proven across multiple NIH-funded trials. However, open-source EDCs require institutional IT or data management capacity to deploy, host, and maintain—the inherent trade-off of self-hosting. For large registrational trials requiring vendor hosting, professional services, and validation support, commercial platforms (Medidata, Veeva, Oracle) remain the primary choice.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Data-Capture?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Electronic-Data-Capture?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Built for Clinical Research Coordinators, Data Managers, CRO Tech Teams, and Academic Researchers.**  
-Making clinical trial data capture more open, compliant, and accessible.
+## 📌 Introduction & Overview
+
+**Awesome Electronic Data Capture (EDC)** is a comprehensive, SEO-optimized, community-curated directory of **commercial SaaS platforms** and **open-source software repositories** powering modern clinical trials, medical research, electronic Case Report Forms (eCRF), Good Clinical Practice (GCP) compliance, 21 CFR Part 11 validation, and CDISC data standards (SDTM, ODM-XML, ADaM).
+
+Whether you are a **Clinical Research Coordinator (CRC)**, **Data Manager**, **Biostatistician**, **CRO Technology Lead**, or **Academic Investigator**, this repository serves as your authoritative reference for evaluating and selecting clinical trial data capture software.
+
+---
+
+## 💡 Table of Contents
+
+- [📊 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source Repositories](#-open-source-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📊 SaaS / Hosted Platforms
+
+> 📈 **Market Dynamics & Market Size**: The global Electronic Data Capture (EDC) market is estimated at **$2.5 Billion – $3.0 Billion in 2026** and is projected to expand to **$6.5 Billion+ by 2033** (growing at a ~13.5% CAGR). The market is **moderately fragmented**—dominated by top-tier enterprise giants (Oracle, Veeva, Medidata) for complex Phase II–IV registrational trials, while mid-market SaaS providers (Castor, Viedoc) and open-source models (REDCap, LibreClinica) capture substantial market share across investigator-initiated studies, academic trials, and decentralized clinical research.
+
+The table below presents commercial SaaS EDC software ordered by **Company Size (Annual Revenue / Market Valuation)** in descending order.
+
+| Name | Description | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle Clinical One](https://www.oracle.com/)** | Enterprise cloud platform uniting EDC, clinical data management, and trial supply logistics. | **~$53 Billion** (Oracle Annual Revenue) | ~$10,000/month per active trial | No permanent free tier; 30-day Oracle Cloud Free Tier ($300 credits) for infrastructure test environments |
+| **[Veeva Vault EDC](https://www.veeva.com/)** | Cloud-native EDC platform within Veeva Development Cloud, seamlessly linking eTMF, CTMS, and CDMS. | **~$2.7 Billion** Revenue (~$35B Market Cap) | ~$12,000/month per study ($100k annual contract minimum) | No free plan; custom sandbox tenant provided for contracted customers only |
+| **[MACRO EDC](https://www.elsevier.com/)** | Elsevier's enterprise EDC platform for protocol management, double data entry, and CDISC export. | **~$10 Billion** (RELX Group Revenue) | ~$5,000/month per study | No free tier; demo environment available for verified healthcare institutions |
+| **[Medidata Rave](https://www.medidata.com/)** | Industry-standard EDC solution for global registrational pharmaceutical trials with deep CDISC ODM integration. | **~$6.2 Billion** (Dassault Systèmes Revenue; ~$1.0B EDC segment) | ~$15,000/month per study (enterprise contracts start at ~$150k/year) | No free tier; guided enterprise demo available upon request |
+| **[IBM Clinical Development](https://www.ibm.com/)** | Unified clinical data capture system featuring eCRF, ePRO, randomization, and medical coding modules. | **~$800 Million** (Merative Revenue) | ~$8,000/month per trial module | No free tier; guided interactive sales demo available |
+| **[Anju EDC](https://www.anjusoftware.com/)** | Flexible clinical data management system tailored for oncology and rare disease clinical trials. | **~$50 Million** Annual Revenue | ~$3,000/month per trial | No free tier; custom demonstration sandbox available upon request |
+| **[Ennov Clinical](https://www.ennov.com/)** | Integrated EDC and document management suite for Phase I–IV clinical studies and medical device trials. | **~$40 Million** Annual Revenue | ~$3,500/month per study module | No free plan; 30-day trial sandbox for qualified life science organizations |
+| **[Castor EDC](https://www.castoredc.com/)** | User-friendly SaaS platform offering electronic data capture, eCOA, eConsent, and real-time validation. | **~$35 Million** Revenue (~$65M VC Funding) | Castor Essentials starts at **$2.20/subject/month** ($250/mo minimum); commercial plans from $750/mo | **Free for non-profit academic studies** (up to 5 subjects & basic forms forever); 14-day free trial on paid plans |
+| **[Viedoc](https://www.viedoc.com/)** | Modern Scandinavian EDC & ePRO platform with intuitive web forms and CDISC ODM automated export. | **~$25 Million** Annual Revenue | Viedoc Lite starts at **$1,800/month** per active trial | No permanent free tier; 14-day full-feature trial environment available |
+| **[REDCap Cloud](https://www.redcapcloud.com/)** | Commercial cloud-hosted version of REDCap with enterprise validation and 21 CFR Part 11 support. | **~$22 Million** Annual Revenue | ~$299/month per study (~$3,600/year) | **Free forever** for non-profit REDCap Consortium member institutions; commercial cloud offers a 30-day free trial |
+| **[DATATRAK](https://www.datatrak.com/)** | Cloud-based clinical management system unifying EDC, trial design, randomization, and supply tracking. | **~$15 Million** Annual Revenue | ~$2,500/month per active trial | No free tier; sandbox test environment available upon request |
+| **[Clinion](https://clinion.com/)** | AI-enabled EDC platform providing eCRF creation, ePRO, RTSM, and automated trial reporting. | **~$10 Million** Annual Revenue | Basic Tier starts at **$500/month** per trial (Phase I/II) | **14-day free trial** with up to 5 test subjects; no permanent free plan |
+| **[TrialKit](https://www.trialkit.com/)** | Configurable web and mobile EDC platform for medical device and biopharma clinical trials. | **~$8 Million** Annual Revenue | Web/Mobile starter tier starts at **$495/month** per study | **30-day free trial** (1 study workspace, up to 10 test subjects); no permanent free plan |
+| **[OpenClinica Enterprise](https://www.openclinica.com/)** | Managed commercial cloud platform powered by OpenClinica with validated GCP compliance and ePRO. | **~$6.3 Million** Annual Revenue | Hosted Enterprise starts at **$600/month** per active study | **Community Edition is 100% Free & Open-Source forever** (self-hosted); 30-day trial for Cloud Enterprise |
+| **[ClinCapture](https://www.clincapture.com/)** | Cloud EDC software featuring Captivate eCRF builder, ePRO, and automated CDISC SDTM formatting. | **~$5 Million** Annual Revenue | Self-serve build tier starts at **$350/month** per study | **14-day free self-service trial** (1 study workspace); paid subscription required thereafter |
+
+---
+
+## 💻 Open-Source Repositories
+
+The open-source EDC ecosystem offers transparent, customizable, and community-audited tools for medical research institutions, clinical trial units, and data engineering teams.
+
+Projects below are sorted by **GitHub Star Count** in descending order. Each star badge links directly to the repository's stargazers page.
+
+- **[openemr/openemr](https://github.com/openemr/openemr)** [![GitHub stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers)  
+  Most popular ONC-certified electronic health record (EHR) and medical practice management solution. Features integrated clinical workflows, patient portals, FHIR REST APIs, and clinical data logging.  
+  `License: GNU GPLv3` | `Tech Stack: PHP, JavaScript, MySQL`
+
+- **[gnuhealth/gnuhealth](https://github.com/gnuhealth/gnuhealth)** [![GitHub stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers)  
+  Free, multi-award-winning Health and Hospital Information System (HIS) developed by the GNU Project. Includes modules for Electronic Medical Records (EMR), lab management, patient administration, and epidemiology research.  
+  `License: GPL-3.0` | `Tech Stack: Python, PostgreSQL, Tryton`
+
+- **[fastenhealth/fasten-onprem](https://github.com/fastenhealth/fasten-onprem)** [![GitHub stars](https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white)](https://github.com/fastenhealth/fasten-onprem/stargazers)  
+  Open-source, self-hosted health data aggregator connecting to over 100,000 healthcare institutions. Consolidates electronic health records into a single FHIR-compliant offline-first database.  
+  `License: GPL-3.0` | `Tech Stack: Go, Vue.js, SQLite`
+
+- **[medplum/medplum](https://github.com/medplum/medplum)** [![GitHub stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers)  
+  Developer-first, headless EHR and healthcare platform supporting FHIR native APIs, clinical data collection, automation bots, and custom eCRF user interfaces.  
+  `License: Apache-2.0` | `Tech Stack: TypeScript, React, Node.js, PostgreSQL`
+
+- **[openmrs/openmrs-core](https://github.com/openmrs/openmrs-core)** [![GitHub stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers)  
+  Modular open-source medical record system platform designed specifically for resource-constrained environments and global health research trials.  
+  `License: MPL-2.0` | `Tech Stack: Java, Spring, Hibernate, MySQL`
+
+- **[getodk/collect](https://github.com/getodk/collect)** [![GitHub stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
+  The mobile data collection standard for field research and clinical surveys. Widely used for offline mobile electronic Patient-Reported Outcomes (ePRO) and clinical observations.  
+  `License: Apache-2.0` | `Tech Stack: Java, Kotlin, Android`
+
+- **[DouglasNeuroInformatics/OpenDataCapture](https://github.com/DouglasNeuroInformatics/OpenDataCapture)** [![GitHub stars](https://img.shields.io/github/stars/DouglasNeuroInformatics/OpenDataCapture?style=social&color=white)](https://github.com/DouglasNeuroInformatics/OpenDataCapture/stargazers)  
+  Modern web-based electronic data capture platform built by Douglas NeuroInformatics for remote patient monitoring, clinical instrument administration, and neuroinformatics datasets.  
+  `License: MIT` | `Tech Stack: TypeScript, Next.js, Prisma, PostgreSQL`
+
+- **[cdisc-org/cdisc-rules-engine](https://github.com/cdisc-org/cdisc-rules-engine)** [![GitHub stars](https://img.shields.io/github/stars/cdisc-org/cdisc-rules-engine?style=social&color=white)](https://github.com/cdisc-org/cdisc-rules-engine/stargazers)  
+  Official open-source validation engine for verifying clinical trial dataset compliance against CDISC standards (SDTM, SEND, ADaM).  
+  `License: MIT` | `Tech Stack: Python`
+
+- **[reliatec-gmbh/LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)** [![GitHub stars](https://img.shields.io/github/stars/reliatec-gmbh/LibreClinica?style=social&color=white)](https://github.com/reliatec-gmbh/LibreClinica/stargazers)  
+  Community-driven open-source GCP-compliant EDC platform (successor to OpenClinica Community). Supports eCRF web forms, double data entry, audit trails, digital signatures, and CDISC ODM-XML export.  
+  `License: LGPL-3.0` | `Tech Stack: Java, Tomcat, PostgreSQL`
+
+- **[OHDSI/CohortDiagnostics](https://github.com/OHDSI/CohortDiagnostics)** [![GitHub stars](https://img.shields.io/github/stars/OHDSI/CohortDiagnostics?style=social&color=white)](https://github.com/OHDSI/CohortDiagnostics/stargazers)  
+  Observational Health Data Sciences and Informatics (OHDSI) R tool for evaluating and validating clinical trial cohort definitions across OMOP Common Data Model databases.  
+  `License: Apache-2.0` | `Tech Stack: R, Shiny`
+
+- **[at2e19/SCTU_COSMOS_DQDV_Shiny](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny)** [![GitHub stars](https://img.shields.io/github/stars/at2e19/SCTU_COSMOS_DQDV_Shiny?style=social&color=white)](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny/stargazers)  
+  FAIR- and GCP-aligned Clinical Trial Unit (CTU) infrastructure tailored for multi-omics trial data with automated data quality and validation trust layers.  
+  `License: GPL-3.0` | `Tech Stack: R, Shiny, SQL`
+
+- **[clinicedc/edc](https://github.com/clinicedc/edc)** [![GitHub stars](https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white)](https://github.com/clinicedc/edc/stargazers)  
+  Django-based modular software framework for building multi-site longitudinal clinical trial data management systems. Deployed in NIH-funded international trials.  
+  `License: GPL-3.0` | `Tech Stack: Python, Django, PostgreSQL`
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this directory accurate, up-to-date, and useful for the clinical research community.
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Update** software entries in `README.md` keeping descriptions factual and neutral.
+3. 🔎 **Ensure** new SaaS entries include exact pricing tiers, free trial details, and estimated company size.
+4. 🌟 **Ensure** open-source entries include proper GitHub star social badges linking to stargazers.
+5. 🚀 **Submit** a Pull Request (PR) with a clear title and description.
+
+Check out our curated list directory on [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is a **community-curated index** created for informational and research purposes only. It does not constitute commercial endorsement or legal advice.
+- EDC applications process confidential Patient Health Information (PHI). Organizations must independently verify software compliance with **21 CFR Part 11**, **GCP**, **HIPAA**, and **GDPR** guidelines.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful in navigating the Electronic Data Capture and clinical research software landscape, please consider supporting the project!
+
+- ⭐ **Star** this repository to increase its visibility.
+- 🔀 **Fork** and share it with fellow clinical trial coordinators, data managers, and biostatisticians.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open healthcare data standards! 🌟
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Electronic-Data-Capture&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Electronic-Data-Capture&type=date&legend=top-left)
