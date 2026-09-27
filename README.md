@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Data-Capture?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Data-Capture?style=flat-square" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Electronic-Data-Capture?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Electronic-Data-Capture/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -63,53 +63,53 @@ The table below presents commercial SaaS EDC software ordered by **Company Size 
 
 The open-source EDC ecosystem offers transparent, customizable, and community-audited tools for medical research institutions, clinical trial units, and data engineering teams.
 
-Projects below are sorted by **GitHub Star Count** in descending order. Each star badge links directly to the repository's stargazers page.
+Projects below are sorted by **GitHub Stars_Count** in descending order. Each Stars_Badge links directly to the repository's stargazers page.
 
-- **[openemr/openemr](https://github.com/openemr/openemr)** [![GitHub stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers)  
+- **[openemr/openemr](https://github.com/openemr/openemr)** [![GitHub_Stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers)  
   Most popular ONC-certified electronic health record (EHR) and medical practice management solution. Features integrated clinical workflows, patient portals, FHIR REST APIs, and clinical data logging.  
   `License: GNU GPLv3` | `Tech Stack: PHP, JavaScript, MySQL`
 
-- **[gnuhealth/gnuhealth](https://github.com/gnuhealth/gnuhealth)** [![GitHub stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers)  
+- **[gnuhealth/gnuhealth](https://github.com/gnuhealth/gnuhealth)** [![GitHub_Stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers)  
   Free, multi-award-winning Health and Hospital Information System (HIS) developed by the GNU Project. Includes modules for Electronic Medical Records (EMR), lab management, patient administration, and epidemiology research.  
   `License: GPL-3.0` | `Tech Stack: Python, PostgreSQL, Tryton`
 
-- **[fastenhealth/fasten-onprem](https://github.com/fastenhealth/fasten-onprem)** [![GitHub stars](https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white)](https://github.com/fastenhealth/fasten-onprem/stargazers)  
+- **[fastenhealth/fasten-onprem](https://github.com/fastenhealth/fasten-onprem)** [![GitHub_Stars](https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white)](https://github.com/fastenhealth/fasten-onprem/stargazers)  
   Open-source, self-hosted health data aggregator connecting to over 100,000 healthcare institutions. Consolidates electronic health records into a single FHIR-compliant offline-first database.  
   `License: GPL-3.0` | `Tech Stack: Go, Vue.js, SQLite`
 
-- **[medplum/medplum](https://github.com/medplum/medplum)** [![GitHub stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers)  
+- **[medplum/medplum](https://github.com/medplum/medplum)** [![GitHub_Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers)  
   Developer-first, headless EHR and healthcare platform supporting FHIR native APIs, clinical data collection, automation bots, and custom eCRF user interfaces.  
   `License: Apache-2.0` | `Tech Stack: TypeScript, React, Node.js, PostgreSQL`
 
-- **[openmrs/openmrs-core](https://github.com/openmrs/openmrs-core)** [![GitHub stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers)  
+- **[openmrs/openmrs-core](https://github.com/openmrs/openmrs-core)** [![GitHub_Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers)  
   Modular open-source medical record system platform designed specifically for resource-constrained environments and global health research trials.  
   `License: MPL-2.0` | `Tech Stack: Java, Spring, Hibernate, MySQL`
 
-- **[getodk/collect](https://github.com/getodk/collect)** [![GitHub stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
+- **[getodk/collect](https://github.com/getodk/collect)** [![GitHub_Stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
   The mobile data collection standard for field research and clinical surveys. Widely used for offline mobile electronic Patient-Reported Outcomes (ePRO) and clinical observations.  
   `License: Apache-2.0` | `Tech Stack: Java, Kotlin, Android`
 
-- **[DouglasNeuroInformatics/OpenDataCapture](https://github.com/DouglasNeuroInformatics/OpenDataCapture)** [![GitHub stars](https://img.shields.io/github/stars/DouglasNeuroInformatics/OpenDataCapture?style=social&color=white)](https://github.com/DouglasNeuroInformatics/OpenDataCapture/stargazers)  
+- **[DouglasNeuroInformatics/OpenDataCapture](https://github.com/DouglasNeuroInformatics/OpenDataCapture)** [![GitHub_Stars](https://img.shields.io/github/stars/DouglasNeuroInformatics/OpenDataCapture?style=social&color=white)](https://github.com/DouglasNeuroInformatics/OpenDataCapture/stargazers)  
   Modern web-based electronic data capture platform built by Douglas NeuroInformatics for remote patient monitoring, clinical instrument administration, and neuroinformatics datasets.  
   `License: MIT` | `Tech Stack: TypeScript, Next.js, Prisma, PostgreSQL`
 
-- **[cdisc-org/cdisc-rules-engine](https://github.com/cdisc-org/cdisc-rules-engine)** [![GitHub stars](https://img.shields.io/github/stars/cdisc-org/cdisc-rules-engine?style=social&color=white)](https://github.com/cdisc-org/cdisc-rules-engine/stargazers)  
+- **[cdisc-org/cdisc-rules-engine](https://github.com/cdisc-org/cdisc-rules-engine)** [![GitHub_Stars](https://img.shields.io/github/stars/cdisc-org/cdisc-rules-engine?style=social&color=white)](https://github.com/cdisc-org/cdisc-rules-engine/stargazers)  
   Official open-source validation engine for verifying clinical trial dataset compliance against CDISC standards (SDTM, SEND, ADaM).  
   `License: MIT` | `Tech Stack: Python`
 
-- **[reliatec-gmbh/LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)** [![GitHub stars](https://img.shields.io/github/stars/reliatec-gmbh/LibreClinica?style=social&color=white)](https://github.com/reliatec-gmbh/LibreClinica/stargazers)  
+- **[reliatec-gmbh/LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)** [![GitHub_Stars](https://img.shields.io/github/stars/reliatec-gmbh/LibreClinica?style=social&color=white)](https://github.com/reliatec-gmbh/LibreClinica/stargazers)  
   Community-driven open-source GCP-compliant EDC platform (successor to OpenClinica Community). Supports eCRF web forms, double data entry, audit trails, digital signatures, and CDISC ODM-XML export.  
   `License: LGPL-3.0` | `Tech Stack: Java, Tomcat, PostgreSQL`
 
-- **[OHDSI/CohortDiagnostics](https://github.com/OHDSI/CohortDiagnostics)** [![GitHub stars](https://img.shields.io/github/stars/OHDSI/CohortDiagnostics?style=social&color=white)](https://github.com/OHDSI/CohortDiagnostics/stargazers)  
+- **[OHDSI/CohortDiagnostics](https://github.com/OHDSI/CohortDiagnostics)** [![GitHub_Stars](https://img.shields.io/github/stars/OHDSI/CohortDiagnostics?style=social&color=white)](https://github.com/OHDSI/CohortDiagnostics/stargazers)  
   Observational Health Data Sciences and Informatics (OHDSI) R tool for evaluating and validating clinical trial cohort definitions across OMOP Common Data Model databases.  
   `License: Apache-2.0` | `Tech Stack: R, Shiny`
 
-- **[at2e19/SCTU_COSMOS_DQDV_Shiny](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny)** [![GitHub stars](https://img.shields.io/github/stars/at2e19/SCTU_COSMOS_DQDV_Shiny?style=social&color=white)](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny/stargazers)  
+- **[at2e19/SCTU_COSMOS_DQDV_Shiny](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny)** [![GitHub_Stars](https://img.shields.io/github/stars/at2e19/SCTU_COSMOS_DQDV_Shiny?style=social&color=white)](https://github.com/at2e19/SCTU_COSMOS_DQDV_Shiny/stargazers)  
   FAIR- and GCP-aligned Clinical Trial Unit (CTU) infrastructure tailored for multi-omics trial data with automated data quality and validation trust layers.  
   `License: GPL-3.0` | `Tech Stack: R, Shiny, SQL`
 
-- **[clinicedc/edc](https://github.com/clinicedc/edc)** [![GitHub stars](https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white)](https://github.com/clinicedc/edc/stargazers)  
+- **[clinicedc/edc](https://github.com/clinicedc/edc)** [![GitHub_Stars](https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white)](https://github.com/clinicedc/edc/stargazers)  
   Django-based modular software framework for building multi-site longitudinal clinical trial data management systems. Deployed in NIH-funded international trials.  
   `License: GPL-3.0` | `Tech Stack: Python, Django, PostgreSQL`
 
